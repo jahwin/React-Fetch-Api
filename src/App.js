@@ -53,7 +53,7 @@ const App = () => {
           ) : (
             // When photo not found
             <div className="empty-widget">
-              <p>Photo not available. Enter album ID then click on get Albmum button to get images</p>
+              <p>Photo not available. Enter album ID then click on get Album button to get images</p>
             </div>
           ) : (
             // When loading Album photo
