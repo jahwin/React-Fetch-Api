@@ -38,7 +38,7 @@ const App = () => {
         </div>
         <div className="search-wizard-widget">
           {!album_loading ? album_photo.length > 0 ? (
-            // Search Ui content
+            // Search result UI content
             <div className="search-result">
               {album_photo.map((album, index) => {
                 return (
